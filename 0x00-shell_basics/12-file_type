@@ -1,3 +1,3 @@
 #!/bin/bash
-Get the file type of iamafile in /tmp file /tmp/iamafile
+file /tmp/iamafile
 
