@@ -1,3 +1,2 @@
 #!/bin/bash
-third_line=$(awk 'NR==3' /iacta)
-echo "$third_line"
+cat ./iacta | tail --lines=+3 | head -1
