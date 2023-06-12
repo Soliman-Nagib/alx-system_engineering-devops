@@ -1,0 +1,3 @@
+#!/bin/bash
+third_line=$(awk 'NR==3' iacta)
+echo "$third_line"
