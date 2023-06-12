@@ -1,3 +1,2 @@
 #!/bin/bash
-last_line=$(tail -1 ./iacta)
-echo -e "$last_line\n$last_line" >> ./iacta
+cat ./iacta | tail --lines=1 >> iacta
