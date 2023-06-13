@@ -1,0 +1,5 @@
+#!/bin/bash
+path=$(getconf PATH)
+paths=($path)
+num_directories=$(echo "${#paths[@]}" | bc)
+echo "$num_directories"
