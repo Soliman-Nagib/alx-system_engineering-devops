@@ -1,3 +1,2 @@
 #!/bin/bash
 mkdir $PATH/action
-echo $PATH
