@@ -1,6 +1,2 @@
 #!/bin/bash
-users_and_home_directories = $(cat /etc/passwd | awk -F: '{print $1, $6}')
-users_and_home_directories_sorted = $(sort -k1,1 -k2,2 $users_and_home_directories)
-user = $(echo $user_and_home_directory | cut -d' ' -f1)
-home_directory = $(echo $user_and_home_directory | cut -d' ' -f2)
-echo "$user $home_directory"
+cat /etc/passwd | cut -d: -f1,6 | sort
