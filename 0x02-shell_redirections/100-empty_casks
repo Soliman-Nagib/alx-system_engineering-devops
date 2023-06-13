@@ -1,2 +1,2 @@
 #!/binn/bash
-find . -type d -empty -o -type f -empty | sed 's/^\.//'
+find . -type d -empty -o -type f -size 0 | sed -e 's|.*/||'
