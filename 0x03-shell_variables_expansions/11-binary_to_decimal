@@ -1,0 +1,4 @@
+#!/bin/bash
+binary="$BINARY"
+decimal=$((2#$binary))
+echo "$decimal"
