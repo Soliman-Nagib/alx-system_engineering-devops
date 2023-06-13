@@ -1,2 +1,3 @@
 #!/bin/bash
-mkdir $PATH/action
+mkdir /action
+mv /action $PATH
