@@ -1,2 +1,2 @@
 #!/binn/bash
-find . -type d -empty -o -type f -size 0
+find . -type d -path . -prune -o -type d -empty -o -type f -size 0
