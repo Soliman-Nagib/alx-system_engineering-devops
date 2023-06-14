@@ -1,2 +1,2 @@
 #!/binn/bash
-ls -R | find -empty
+find . -type d -empty -printf "%f\n" -o -type f -empty -printf "%f\n"
